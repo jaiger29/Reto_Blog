@@ -1,0 +1,34 @@
+/*TAMANO DE LOS ICONOS*/
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+/* TERMINA TAMANO DE LOS ICONOS*/
+body{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+header{
+  color: white;
+}
+.color{
+  background: rgba(89, 133, 154, 0.65);
+}
+.warnin{
+  background: rgba(185, 220, 247, 0.76);
+}
+.usuario{
+  max-width: 70px;
+  max-height: 70px;
+  border: 1px solid black;
+}
+@media all and (max-width:1024px){
+  .usuario{
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
