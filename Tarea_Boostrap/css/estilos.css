@@ -1,0 +1,40 @@
+body{
+  background-image: url(../img/5.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.fondo-header{
+  background: white;
+}
+.fondo{
+  background: rgba(245, 239, 239, 0.65);
+}
+.navegacion{
+  background:rgba(228, 56, 2, 0.8);
+}
+.navegacion ul li a:hover{
+  background: rgba(51, 122, 183, 0.91);
+}
+.navegacion ul li a{
+  color: white;
+}
+.articulos{
+  background: rgba(137, 196, 204, 0.71);
+}
+.color1{
+  background: rgba(105, 182, 239, 0.62);
+}
+.color2{
+  background: rgba(105, 182, 239, 0.62);
+}
+.fondo1{
+  background: rgba(245, 239, 239, 0.65);
+  padding: 20px 5px 0px 5px;
+}
+.tam{
+  height: 70px;
+}
+.btn_redes img{
+  width: 10%;
+  height: 10%;
+}
